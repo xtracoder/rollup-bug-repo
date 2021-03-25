@@ -1,0 +1,17 @@
+{
+  "name": "bug-demo",
+  "version": "0.0.0",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "gulp -f gulp-bug-demo.js build"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "4.0.2",
+    "@rollup/plugin-commonjs": "^17.1.0",
+    "rollup": "2.39.0"
+  },
+  "ignore-devDependencies": {}
+}
